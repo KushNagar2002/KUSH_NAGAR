@@ -1,15 +1,11 @@
-function generateOddSeriesUpToA(a) {
-  let count = a % 2 === 0 ? a - 1 : a;
-
+function generateOddSeries(a) {
   let result = [];
-  for (let i = 0; i < count; i++) {
+  for (let i = 0; i < a; i++) {
     result.push(2 * i + 1);
   }
-
   console.log(result.join(", "));
 }
 
-generateOddSeriesUpToA(1);
-generateOddSeriesUpToA(2);
-generateOddSeriesUpToA(4);
-generateOddSeriesUpToA(6);
+generateOddSeries(1);
+generateOddSeries(2);
+generateOddSeries(5);
