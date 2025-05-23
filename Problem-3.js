@@ -1,5 +1,4 @@
-Q: Check for Palindrome
-Sol: 
+// Q: Check for Palindrome
 function isPalindrome(str) {
   const reversed = str.split('').reverse().join('');
   return str === reversed;
