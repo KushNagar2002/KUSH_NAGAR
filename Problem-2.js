@@ -1,6 +1,11 @@
-// Q: Find the Largest Number in an Array
-function findMax(arr) {
-  return Math.max(...arr);
+function generateOddSeries(a) {
+  let result = [];
+  for (let i = 0; i < a; i++) {
+    result.push(2 * i + 1);
+  }
+  console.log(result.join(", "));
 }
 
-console.log(findMax([10, 5, 8, 22, 1]));
+generateOddSeries(1);
+generateOddSeries(2);
+generateOddSeries(5);
