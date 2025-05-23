@@ -1,5 +1,5 @@
-Q: Find the Largest Number in an Array
-Sol: 
+// Q: Find the Largest Number in an Array
+// Sol: 
 function findMax(arr) {
   return Math.max(...arr);
 }
