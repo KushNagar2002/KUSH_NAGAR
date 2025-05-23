@@ -1,5 +1,4 @@
-Q: Reverse a string
-Sol: 
+//Q: Reverse a string
 function reverseString(str) {
   return str.split('').reverse().join('');
 }
